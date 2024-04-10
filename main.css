@@ -1,3 +1,33 @@
 body {
-  background-color: orange;
+  background-color: beige;
+}
+
+#calculatorWrapper {
+  width: 400px;
+  margin: 20vh auto 0;
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.buttons {
+  display: block;
+  width: 24.5%;
+  height: 16.3%;
+}
+
+#output {
+  display: flex;
+  width: 98%;
+  justify-content: right;
+}
+
+#clear {
+  width: 49%;
+}
+
+#zero {
+  width: 74.8%;
 }
