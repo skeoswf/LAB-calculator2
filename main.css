@@ -3,6 +3,7 @@ body {
 }
 
 #calculatorWrapper {
+  border: 5px solid red;
   width: 400px;
   margin: 20vh auto 0;
   display: flex;
@@ -18,10 +19,17 @@ body {
   height: 16.3%;
 }
 
-#output {
+#outputContainer {
   display: flex;
   width: 98%;
   justify-content: right;
+  padding-right: 40px;
+  background-color: orange;
+}
+
+#outputValue {
+  font-size: 45px;
+  margin-top: 15px;
 }
 
 #clear {
