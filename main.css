@@ -1,5 +1,7 @@
 body {
-  background-color: beige;
+  background-image: url("./background.png");
+  background-repeat: no-repeat;
+  background-size: 2660px 2000px;
 }
 
 #calculatorWrapper {
@@ -33,7 +35,7 @@ body {
 }
 
 #clear {
-  width: 49%;
+  width: 50%;
 }
 
 #zero {
