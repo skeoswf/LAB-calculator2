@@ -11,7 +11,8 @@ class Calculator {
   }
 
   delete() {
-
+    const currentDisplay = this.displayOutput.textContent;
+    this.displayOutput.textContent = currentDisplay.slice(0, -1)
   }
 
   appendNumber(number) {
@@ -93,5 +94,10 @@ equalsButton.addEventListener('click', () => {
 
 clearButton.addEventListener('click', () => {
   calculator.clear();
+  calculator.updateDisplay();
+})
+
+deleteButton.addEventListener('click', () => {
+  calculator.delete();
   calculator.updateDisplay();
 })
